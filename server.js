@@ -181,7 +181,7 @@
 // });
 
 
-import booksData from '../Amana-Bookstore-Express-API/data/books.json' with { type: 'json' };
+import booksData from './data/books.json' with { type: 'json' };
 import reviewsData from './data/reviews.json' with { type: 'json' };
 import express from 'express';
 import morgan from 'morgan';
